@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background-color:bisque;
+}
+
+.flex-container {
+
+    display: flex;
+    border-width: 40px;
+    flex-wrap: wrap;
+    font-size: medium;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.address1,
+.address2 {
+
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
+}
+
+h2 {
+    background-color: burlywood;
+    padding: 30px;
+}
+
+#logo{
+    margin: 7px;
+ }

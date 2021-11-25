@@ -5,10 +5,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nav-bar.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="img-slides.css">
-    <link rel="stylesheet" href="index.css">
-    <title> Home </title>
+    <title> Assignment </title>
   </head>
 
   <body>
@@ -24,14 +23,22 @@
         <li><a href="About.html">about</a></li>
 
 
-        <li><a href="products.html">Products</a></li>
+        <div class="dropdown">
 
-        <li><a href="price.html">Prices</a></li>
+          <button class="dropbtn">
 
+            <li><a href="products.html">Products</a></li>
 
+          </button>
+
+          <div class="dropdown-content">
+
+            <li><a href="price.html">Prices</a></li>
+
+          </div>
+
+        </div>
         <li><a href="contact.html">Contact Us</a></li>
-
-        <li><a href="cart.html">Cart</a></li>
       </ul>
 
     </nav>
@@ -43,37 +50,34 @@
 
     <section>
 
-      <h2> Farm fresh mushrooms</h2>
+
 
       <div class="slider-holder">
         <span id="slider-image-1"></span>
         <span id="slider-image-2"></span>
         <span id="slider-image-3"></span>
-
-
         <div class="image-holder">
 
           <!-- picture element is used for responsivness, when the screen width is more than 786 the picture will change-->
 
           <picture>
-            <source srcset="mushrooms-pic3.jpg" class="slider-image" media="(min-width: 768px)">
-            <source srcset="mushrooms-pic3.jpg" class="slider-image">
-            <img src="mushrooms-pic3.jpg" class="slider-image" alt="index-image" />
-
-          </picture>
-          
-          <picture>
-
-            <source srcset="mushrooms-pic2.jpg" class="slider-image" media="(min-width: 768px)">
-            <source srcset="mushrooms-pic2.jpg" class="slider-image">
-            <img src="mushrooms-pic2.jpg" class="slider-image" alt="index image" />
+            <source srcset="img1.jpg" class="slider-image" media="(min-width: 768px)">
+            <source srcset="img4.jpg" class="slider-image">
+            <img src="img4.jpg" class="slider-image" />
 
           </picture>
           <picture>
 
-            <source srcset="mushrooms-pic1.jpg" class="slider-image" media="(min-width: 768px)">
-            <source srcset="mushrooms-pic1.jpg" class="slider-image">
-            <img src="mushrooms-pic1.jpg" class="slider-image" alt="index-image" />
+            <source srcset="img2.jpg" class="slider-image" media="(min-width: 768px)">
+            <source srcset="img5.jpg" class="slider-image">
+            <img src="img5.jpg" class="slider-image" />
+
+          </picture>
+          <picture>
+
+            <source srcset="img3.jpg" class="slider-image" media="(min-width: 768px)">
+            <source srcset="img6.jpg" class="slider-image">
+            <img src="img6.jpg" class="slider-image" />
 
 
           </picture>

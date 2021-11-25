@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: bisque;
+  font-family: Arial;
+}
+
+/* to make other elements be placed after the utilised columns */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+h2 {
+  background-color: burlywood;
+  padding: 30px;
+}
+
+h3 {
+  background-color: rgb(182, 23, 182);
+  padding: 5px;
+}
+
+
+.image {
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 10%;
+  }
+
+  .col-2 {
+    width: 20%;
+  }
+
+  .col-3 {
+    width: 30%;
+  }
+
+  .col-4 {
+    width: 40%;
+  }
+
+  .col-5 {
+    width: 50%;
+  }
+
+  .col-6 {
+    width: 60%;
+  }
+
+  .col-7 {
+    width: 70%;
+  }
+
+  .col-8 {
+    width: 80%;
+  }
+
+  .col-9 {
+    width: 90%;
+  }
+
+  .col-10 {
+    width: 100%;
+  }
+
+}
+
+#logo{
+  margin: 7px;
+}

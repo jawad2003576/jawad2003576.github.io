@@ -1,0 +1,73 @@
+
+body{
+    font-family: Arial;
+    background-color: bisque;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.discount {
+
+    outline-style: solid;
+    outline-color: red;
+}
+
+.type-1,
+.type-2,
+.type-3,
+.type-4,
+.type-5,
+.type-6,
+.promotion {
+    margin: 10px;
+}
+
+.type-1,
+.type-2,
+.type-3,
+.type-4,
+.type-5,
+.type-6 {
+
+    background-color: rgb(230, 231, 231);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 20%);
+    width: 600px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.flex-container .promotion {
+
+    background-color: white;
+    flex: 100%;
+}
+
+
+
+.heading {
+    background-color: burlywood;
+    padding: 15px;
+}
+
+section {
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#logo{
+    margin: 7px;
+ }
