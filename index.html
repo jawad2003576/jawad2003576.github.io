@@ -1,16 +1,105 @@
+  <!DOCTYPE html>
+  <html lang="en">
 
-<!DOCTYPE html>
-<html lang="en">
+  <head>
 
-<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav-bar.css">
+    <link rel="stylesheet" href="img-slides.css">
+    <link rel="stylesheet" href="index.css">
+    <title> Home </title>
+  </head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <body>
 
-<body>
-  
-  <h1> Hi, Welcome to my Website </h1>
-  
+    <nav>
+
+      <header>
+        <h1 id="logo"><a href="index.html"><img src= "logo.jpg"></a></h1>
+      </header>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">about</a></li>
+
+
+        <li><a href="products.html">Products</a></li>
+
+        <li><a href="price.html">Prices</a></li>
+
+
+        <li><a href="contact.html">Contact Us</a></li>
+
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section>
+
+      <h2> Farm fresh mushrooms</h2>
+
+      <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+
+
+        <div class="image-holder">
+
+          <!-- picture element is used for responsivness, when the screen width is more than 786 the picture will change-->
+
+          <picture>
+            <source srcset="mushrooms-pic3.jpg" class="slider-image" media="(min-width: 768px)">
+            <source srcset="mushrooms-pic3.jpg" class="slider-image">
+            <img src="mushrooms-pic3.jpg" class="slider-image" alt="index-image" />
+
+          </picture>
+          
+          <picture>
+
+            <source srcset="mushrooms-pic2.jpg" class="slider-image" media="(min-width: 768px)">
+            <source srcset="mushrooms-pic2.jpg" class="slider-image">
+            <img src="mushrooms-pic2.jpg" class="slider-image" alt="index image" />
+
+          </picture>
+          <picture>
+
+            <source srcset="mushrooms-pic1.jpg" class="slider-image" media="(min-width: 768px)">
+            <source srcset="mushrooms-pic1.jpg" class="slider-image">
+            <img src="mushrooms-pic1.jpg" class="slider-image" alt="index-image" />
+
+
+          </picture>
+
+        </div>
+        <div class="button-holder">
+          <a href="#slider-image-1" class="slider-change"></a>
+          <a href="#slider-image-2" class="slider-change"></a>
+          <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+      </div>
+
+      <br>
+      <br>
+    </section>
+
+    <footer>
+
+      <a href="#html validator"><img src="html_logo_grayscale_31" alt="html validator logo"></a>
+      <a href="#html validator"><img src="css_logo_grayscale_31" alt="css validator logo"></a>
+
+    </footer>
+
+
+
+
   </body>
-</html>
+
+  </html>
