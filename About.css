@@ -23,14 +23,15 @@ body{
 
 
 h2 {
-  background-color: saddlebrown;
+  background-color: burlywood;
   padding: 30px;
-  color : white;
+  
 }
 
 h3 {
-  background-color: brown;
+  background-color: saddlebrown;
   padding: 5px;
+  color: white;
 }
 
 
