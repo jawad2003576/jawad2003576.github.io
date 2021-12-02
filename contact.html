@@ -65,6 +65,8 @@
 
     </div>
 
+   </div>
+
     <div class="contact-form">
 
 
@@ -73,27 +75,25 @@
         <fieldset>
 
           <legend>Contact</legend>
-          <label for="fname">
-          </label>
-          <h2>Name:<h2>
-          <label for="fname">First name</label> &nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <label for="lname">Last name:</label><br>
-          <input type="text" id="fname" name="fname" required>
-          <input type="text" id="lname" name="lname" required>
-
+         
+          <label for="fname">First name</label><br>
+          <input type="text" id="fname" name="fname" required="">
           <br>
-            <h2>Email:</h2>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" required="">
+          <br>
           <label for="email">
+            Email:
           </label>
-          <input type="email" id="email" name="email" required>
+          <br>
+          <input type="email" id="email" name="email" required="">
           <br>
 
 
 
 
           <h4>Reason for Contact</h4>
-          <input type="radio" id="Sales" name="contact-reason" value="sales" checked>
+          <input type="radio" id="Sales" name="contact-reason" value="sales" checked="">
           <label for="Sales">Sales</label>
           <input type="radio" id="Support" name="contact-reason" value="Support">
           <label for="Support">Support</label>
@@ -102,17 +102,20 @@
           <input type="radio" id="Other" name="contact-reason" value="Other">
           <label for="Other">Other</label>
 
+          <br>
           <label for="text-area">
-            <p>Comments:</p>
+            Comments:
           </label>
-          <textarea name="text-area" rows="10" cols="40" required></textarea>
-          <br><br>
+          <br>
+          <textarea name="text-area" id="text-area" rows="10" cols="40" required=""></textarea>
+          <br><br><br>
           <input type="submit" value="Submit">
         </fieldset>
       </form>
-      </div>
+    </div>
 
   </section>
+
 
   <footer>
 
